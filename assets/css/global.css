@@ -35,7 +35,7 @@ body {
 }
 
 .logo img{
-  width: 13rem;
+  width: 16rem;
   margin-top: -4rem;
 }
 
@@ -53,7 +53,7 @@ body {
 }
 
 .card-icon i {
-  font-size: 1.5rem;
+  font-size: 2.2rem;
   color: #0d261a;
 }
 
@@ -64,6 +64,7 @@ body {
 .btn {
   border: none;
   background-color: #592A0E;
+  font-size: 1rem;
   padding: 1rem;
   border-radius: 1rem 2rem;
   text-align: center;
