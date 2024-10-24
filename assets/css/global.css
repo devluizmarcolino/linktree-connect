@@ -7,7 +7,7 @@
 
 body {
   width: 100%;
-  background-color: #BFB6B0;
+  background-color: #ece3dd;
 }
 
 .card-conteudo {
@@ -45,6 +45,10 @@ body {
 }
 
 .card-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
   margin-top: 0.9rem;
 }
 
@@ -79,4 +83,19 @@ body {
 
 .btn:hover {
   transform: scale(1.1)
+}
+
+.card-button {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+footer {
+  text-align: center;
+  color: #5f4232;
+}
+
+footer a {
+  color: #5f4232;
 }
